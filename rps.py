@@ -16,11 +16,26 @@ elif user_action == "rock":
         print("Rock smashes scissors! You win!")
     else:
         print("Paper covers rock! You lose.")
-elif user_action == "paper":
-    if ai_action == "paper":
+Elif user_action == "paper":
+
+
+
+
+
+
+
+   if ai_action =="rock": 
+
+
+
+
         print("Paper covers rock! You win!")
-    else:
-        print("Scissors cuts paper! You lose.")
+
+   elif ai_action == "scissors": 
+    print("Scissors cuts paper! You lose.")
+else:
+
+print("both players selected paper. it's a tie!")
 elif user_action == "scissors":
     if ai_action == "paper":
         print("Scissors cuts paper! You win!")
